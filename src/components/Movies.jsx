@@ -7,7 +7,7 @@ function Movies(props) {
 	return <div className="movies">
 		{movies.length ? movies.map(movie =>
 			<Movie  {...movie} />
-		) : <h4>Nothing found. Write something new and try again.</h4>}
+		) : <h4>Nothing found. Write "matrix" for example and try it again.</h4>}
 	</div>
 }
 
